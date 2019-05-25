@@ -71,3 +71,22 @@
         flex-wrap: wrap;
     }
 }
+
+.footer {
+    padding: 70px 0;
+    @include flexLayout;
+    flex-direction: column;
+
+    &-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+    .social-media {
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+        margin-bottom: 70px;
+    }
+}
