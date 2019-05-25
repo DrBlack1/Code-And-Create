@@ -99,6 +99,10 @@
             font-weight: bold;
             text-transform: uppercase;
             letter-spacing: 1px;
+            border: 1px solid $color-primary;
+            border-radius: 30px;
+            outline: none;
+            cursor: pointer;
         }
     }
 
