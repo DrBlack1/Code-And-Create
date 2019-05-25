@@ -58,7 +58,7 @@
             color: $color-secondary;
             text-align: justify;
 
-            &:::first-letter {
+            &::first-letter {
                 padding-left: 50px;
             }
         }
