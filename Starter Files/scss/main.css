@@ -34,6 +34,10 @@ body {
 .navbar-navigation-left .left-img {
   width: 50%;
   position: absolute;
+  -webkit-box-shadow: 0 15pb 60px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 15pb 60px rgba(0, 0, 0, 0.4);
+  opacity: .7;
+  border-radius: 10px;
 }
 
 .navbar-navigation-left .left-img-1 {
