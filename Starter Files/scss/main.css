@@ -24,4 +24,9 @@ body {
           transform: translate(-50%, -50%);
   color: #fff;
 }
+
+.logo {
+  font-size: 70px;
+  color: #d3ab55;
+}
 /*# sourceMappingURL=main.css.map */
