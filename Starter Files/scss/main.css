@@ -218,6 +218,9 @@ body {
 .card-overlay-heading {
   font-family: "Nunito", sans-serif;
   font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: capitalize;
 }
 
 .card-img {
