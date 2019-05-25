@@ -23,3 +23,11 @@
     text-align: center;
     @include textStyles;
 }
+
+.main-heading {
+    font-family: $font-dancingScript;
+    font-size: 100px;
+    font-weight: 300;
+    color: $color-primary;
+    margin-bottom: 40px;
+}
