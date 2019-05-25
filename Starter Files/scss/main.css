@@ -32,8 +32,23 @@ body {
 }
 
 .navbar-navigation-left .left-img {
-  width: 300px;
+  width: 50%;
   position: absolute;
+}
+
+.navbar-navigation-left .left-img-1 {
+  top: 15%;
+  left: 15%;
+}
+
+.navbar-navigation-left .left-img-2 {
+  top: 35%;
+  left: 25%;
+}
+
+.navbar-navigation-left .left-img-3 {
+  top: 55%;
+  left: 35%;
 }
 
 .navbar-navigation-right {
