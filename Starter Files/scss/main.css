@@ -197,5 +197,6 @@ body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  opacity: .5;
 }
 /*# sourceMappingURL=main.css.map */
