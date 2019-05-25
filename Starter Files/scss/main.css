@@ -99,6 +99,14 @@ body {
   padding-left: 50px;
 }
 
+.gallery .cards-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .logo {
   font-size: 70px;
   color: #d3ab55;
@@ -172,5 +180,10 @@ body {
 .main-btn:hover {
   background-color: #d3ab55;
   color: #262626;
+}
+
+.card {
+  width: 33.3333%;
+  height: 30vw;
 }
 /*# sourceMappingURL=main.css.map */
