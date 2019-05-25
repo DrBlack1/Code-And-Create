@@ -71,7 +71,15 @@
         left: 0;
         background-color: rgba($color-primary, .6);
         color: $color-white;
+        z-index: 10;
+        @include flexLayout;
+        flex-direction: column;
         @extend %fullSpace;
+
+        &-heading {
+            font-family: $font-nunito;
+            font-size: 50px;
+        }
     }
 
     &-img {
