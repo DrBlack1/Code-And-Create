@@ -64,17 +64,23 @@
     width: 33.3333%;
     height: 30vw;
     position: relative;
+    overflow: hidden;
+
+    &:hover .card-overlay {
+        left: 0;
+    }
 
     &-overlay {
         position: absolute;
         top: 0;
-        left: 0;
+        left: -100;
         background-color: rgba($color-primary, .6);
         color: $color-white;
         z-index: 10;
         @include flexLayout;
         flex-direction: column;
         @extend %fullSpace;
+        transition: left .7s;
 
         &-heading {
             font-family: $font-nunito;

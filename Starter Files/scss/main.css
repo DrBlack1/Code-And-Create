@@ -191,12 +191,17 @@ body {
   width: 33.3333%;
   height: 30vw;
   position: relative;
+  overflow: hidden;
+}
+
+.card:hover .card-overlay {
+  left: 0;
 }
 
 .card-overlay {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -100;
   background-color: rgba(211, 171, 85, 0.6);
   color: #fff;
   z-index: 10;
@@ -213,6 +218,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-transition: left .7s;
+  transition: left .7s;
 }
 
 .card-overlay-heading {
