@@ -57,6 +57,10 @@
             font-style: italic;
             color: $color-secondary;
             text-align: justify;
+
+            &:::first-letter {
+                padding-left: 50px;
+            }
         }
     }
 }
