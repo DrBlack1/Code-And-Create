@@ -4,6 +4,7 @@
     position: fixed;
     top: 10%;
     right: 5%;
+    z-index: 300;
 
     .menu {
         @extend %fullSpace;
