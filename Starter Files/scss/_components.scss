@@ -14,3 +14,11 @@
     color: $color-secondary;
     @include textStyles;
 }
+
+.sub-name {
+    font-family: $font-josefinSans;
+    font-size: 18px;
+    color: $color-secondary;
+    text-align: center;
+    @include textStyles;
+}
