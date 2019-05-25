@@ -12,10 +12,6 @@ body {
   background-color: #262626;
 }
 
-.left-img {
-  width: 300px;
-}
-
 .navbar-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,10 +24,17 @@ body {
   background-color: #262626;
 }
 
+.navbar-navigation-left .left-img {
+  width: 300px;
+  position: absolute;
+  position: fixed;
+}
+
 .navbar-navigation-right {
   width: 50vw;
   height: 100vh;
-  background-color: #262626;
+  background-color: #1f1d1d;
+  position: fixed;
 }
 
 .header {
