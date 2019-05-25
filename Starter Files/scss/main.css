@@ -320,6 +320,8 @@ body {
   width: 100%;
   height: 4px;
   background-color: #d3ab55;
+  -webkit-transform-origin: right;
+          transform-origin: right;
   -webkit-transition: all .5s .5s;
   transition: all .5s .5s;
 }
