@@ -223,6 +223,15 @@ body {
   text-transform: capitalize;
 }
 
+.card-overlay-paragraph {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
 .card-img {
   -o-object-fit: cover;
      object-fit: cover;

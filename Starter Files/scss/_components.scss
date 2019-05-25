@@ -81,6 +81,13 @@
             font-size: 50px;
             @include textStyles(capitalize);
         }
+
+        &-paragraph {
+            font-family: $font-josefinSans;
+            font-size: 30px;
+            margin-bottom: 30px;
+            @include textStyles(capitalize);
+        }
     }
 
     &-img {
