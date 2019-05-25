@@ -61,6 +61,29 @@ body {
   background-color: #1f1d1d;
   position: fixed;
   right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-navigation .nav-list-item {
+  list-style: none;
+}
+
+.navbar-navigation .nav-list-link {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  color: #bbb;
+  text-decoration: none;
 }
 
 .header {
