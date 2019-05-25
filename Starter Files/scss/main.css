@@ -158,6 +158,12 @@ body {
   text-decoration: none;
   font-size: 50px;
   color: #bbb;
+  -webkit-transition: color .7s;
+  transition: color .7s;
+}
+
+.footer .social-media-link:hover {
+  color: #d3ab55;
 }
 
 .logo {
