@@ -113,6 +113,20 @@ body {
           transform: rotateZ(90deg);
 }
 
+.checkbox:checked ~ .hamburger-menu .menu-line-1 {
+  -webkit-transform: rotateZ(-40deg);
+          transform: rotateZ(-40deg);
+}
+
+.checkbox:checked ~ .hamburger-menu .menu-line-2 {
+  opacity: 0;
+}
+
+.checkbox:checked ~ .hamburger-menu .menu-line-3 {
+  -webkit-transform: rotateZ(40deg);
+          transform: rotateZ(40deg);
+}
+
 .header {
   width: 100%;
   height: 100vh;
@@ -306,6 +320,8 @@ body {
   width: 100%;
   height: 4px;
   background-color: #d3ab55;
+  -webkit-transition: all .5s .5s;
+  transition: all .5s .5s;
 }
 
 .logo {
