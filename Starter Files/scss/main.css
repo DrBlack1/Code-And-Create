@@ -96,6 +96,14 @@ body {
   letter-spacing: 4px;
 }
 
+.checkbox:checked ~ .navbar-navigation .navbar-navigation-left {
+  left: 0;
+}
+
+.checkbox:checked ~ .navbar-navigation .navbar-navigation-right {
+  right: 0;
+}
+
 .header {
   width: 100%;
   height: 100vh;
