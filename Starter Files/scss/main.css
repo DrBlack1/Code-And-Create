@@ -166,6 +166,15 @@ body {
   color: #d3ab55;
 }
 
+.footer-copyright-paragraph {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: #bbb;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
 .logo {
   font-size: 70px;
   color: #d3ab55;
