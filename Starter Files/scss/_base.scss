@@ -2,6 +2,10 @@
  $color-black: #000;
  $color-primary: #d3ab55;
 
+ $font-dancingScript: 'Dancing Script', cursive;
+ $font-josefinSans: 'Josefin Sans', sans-serif;
+ $font-numito: 'Nunito', sans-serif;
+
  @mixin flexLayout {
     display: flex;
     justify-content: center;
