@@ -84,6 +84,16 @@ body {
   text-transform: capitalize;
   color: #bbb;
   text-decoration: none;
+  display: block;
+  margin: 20px;
+  text-align: center;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.navbar-navigation .nav-list-link:hover {
+  color: #d3ab55;
+  letter-spacing: 4px;
 }
 
 .header {
