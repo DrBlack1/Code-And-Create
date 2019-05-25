@@ -262,7 +262,6 @@ body {
 .hamburger-menu {
   width: 40px;
   height: 40px;
-  background-color: red;
   position: fixed;
   top: 10%;
   right: 5%;
@@ -278,6 +277,7 @@ body {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  cursor: pointer;
 }
 
 .hamburger-menu .menu-line {
