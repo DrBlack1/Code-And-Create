@@ -12,6 +12,7 @@
         flex-direction: column;
         justify-content: space-around;
         cursor: pointer;
+        transition: transform .5s;
 
         &-line {
             width: 100%;
