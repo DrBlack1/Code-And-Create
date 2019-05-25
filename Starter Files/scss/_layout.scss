@@ -6,11 +6,11 @@
             width: 50vw;
             height: 100vh;
             background-color: $color-dark;
+            position: fixed;
 
             .left-img {
                 width: 300px;
                 position: absolute;
-                position: fixed;
             }            
         }
 

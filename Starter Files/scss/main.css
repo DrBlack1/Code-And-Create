@@ -22,12 +22,12 @@ body {
   width: 50vw;
   height: 100vh;
   background-color: #262626;
+  position: fixed;
 }
 
 .navbar-navigation-left .left-img {
   width: 300px;
   position: absolute;
-  position: fixed;
 }
 
 .navbar-navigation-right {
