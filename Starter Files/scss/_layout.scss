@@ -32,4 +32,11 @@
             opacity: .7;
         }
     }
+
+    &-right {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
