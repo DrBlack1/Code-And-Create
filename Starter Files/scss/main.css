@@ -232,6 +232,13 @@ body {
   text-transform: capitalize;
 }
 
+.card-overlay-btn {
+  width: 150px;
+  height: 40px;
+  color: #d3ab55;
+  background-color: #fff;
+}
+
 .card-img {
   -o-object-fit: cover;
      object-fit: cover;

@@ -88,6 +88,13 @@
             margin-bottom: 30px;
             @include textStyles(capitalize);
         }
+
+        &-btn {
+            width: 150px;
+            height: 40px;
+            color: $color-primary;
+            background-color: $color-white;
+        }
     }
 
     &-img {
