@@ -526,6 +526,13 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .main-heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+}
+
 .sub-heading {
   font-family: "Josefin Sans", sans-serif;
   font-size: 60px;
