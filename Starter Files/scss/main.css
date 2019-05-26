@@ -390,6 +390,7 @@ body {
 @media (max-width: 1600px) {
   .sub-heading {
     font-size: 50px;
+    margin-bottom: 50px;
   }
 }
 
