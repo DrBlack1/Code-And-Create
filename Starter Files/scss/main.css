@@ -598,6 +598,14 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .main-btn {
+    width: 130px;
+    height: 30px;
+    font-size: 10px;
+  }
+}
+
 .card {
   width: 33.3333%;
   height: 30vw;
