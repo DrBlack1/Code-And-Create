@@ -448,6 +448,15 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .logo {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    border-width: 2px;
+  }
+}
+
 .main-name {
   font-family: "Nunito", sans-serif;
   font-size: 50px;
