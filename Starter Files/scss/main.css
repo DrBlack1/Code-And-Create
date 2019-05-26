@@ -350,6 +350,14 @@ body {
   text-transform: capitalize;
 }
 
+@media (max-width: 800px) {
+  .footer-copyright-paragraph {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
 .hamburger-menu {
   width: 40px;
   height: 40px;
