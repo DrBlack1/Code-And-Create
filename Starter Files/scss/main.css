@@ -510,6 +510,14 @@ body {
   color: #262626;
 }
 
+@media (max-width: 800px) {
+  .main-btn {
+    width: 150px;
+    height: 35px;
+    font-size: 12px;
+  }
+}
+
 .card {
   width: 33.3333%;
   height: 30vw;
