@@ -661,9 +661,15 @@ body {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .card-overlay-heading {
     font-size: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .card-overlay-heading {
+    display: none;
   }
 }
 
