@@ -400,6 +400,13 @@ body {
   }
 }
 
+@media (max-width: 1300px) {
+  .sub-heading {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+}
+
 .main-btn {
   width: 170px;
   height: 45px;
