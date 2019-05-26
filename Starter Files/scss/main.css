@@ -150,6 +150,16 @@ body {
           transform: translate(-50%, -50%);
 }
 
+@media (max-width: 500px) {
+  .header .brand {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
 .header-banner {
   text-align: center;
   position: absolute;
