@@ -112,6 +112,13 @@ body {
   transition: right 0.8s cubic-bezier(1, 0, 0, 1);
 }
 
+@media (max-width: 800px) {
+  .navbar-navigation-right {
+    width: 100vw;
+    right: -100vw;
+  }
+}
+
 .navbar-navigation .nav-list-item {
   list-style: none;
 }

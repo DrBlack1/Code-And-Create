@@ -69,6 +69,11 @@
             right: -50vw;
             @include flexLayout;
             transition: right .8s cubic-bezier(1, 0, 0, 1);
+
+            @media(max-width: 800px) {
+                width: 100vw;
+                right: -100vw;
+            }
         }
 
         .nav-list {
