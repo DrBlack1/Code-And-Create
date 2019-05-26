@@ -213,10 +213,22 @@ body {
   margin: 30px 0;
 }
 
+@media (max-width: 1000px) {
+  .about-us-right .stars {
+    margin: 15px 0;
+  }
+}
+
 .about-us-right .star {
   font-size: 15px;
   color: #d3ab55;
   margin-left: 10px;
+}
+
+@media (max-width: 1000px) {
+  .about-us-right .star {
+    font-size: 12px;
+  }
 }
 
 .about-us-right .description {

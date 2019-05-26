@@ -149,12 +149,20 @@
 
         .stars {
             margin: 30px 0;
+
+            @media(max-width: 1000px) {
+                margin: 15px 0;
+            }
         }
 
         .star {
             font-size: 15px;
             color: $color-primary;
             margin-left: 10px;
+
+            @media(max-width: 1000px) {
+                font-size: 12px;
+            }
         }
 
         .description {
