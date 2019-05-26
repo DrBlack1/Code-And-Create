@@ -120,6 +120,10 @@
     display: flex;
     align-items: center;
 
+    @media(max-width: 900px) {
+        height: 70vh;
+    }
+
     &-left {
         width: 40%;
         position: relative;
