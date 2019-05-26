@@ -32,16 +32,28 @@
             .left-img-1 {
                 top: 15%;
                 left: 15%;
+
+                @media(max-width: 1000px) {
+                    width: 5%;
+                }
             }
 
             .left-img-2 {
                 top: 35%;
                 left: 25%;
+
+                @media(max-width: 1000px) {
+                    width: 15%;
+                }
             }
 
             .left-img-3 {
                 top: 55%;
                 left: 35%;
+
+                @media(max-width: 1000px) {
+                    width: 25%;
+                }
             }
         }
 
