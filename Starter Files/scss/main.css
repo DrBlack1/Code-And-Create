@@ -33,6 +33,12 @@ body {
   transition: left 0.8s cubic-bezier(1, 0, 0, 1);
 }
 
+@media (max-width: 800px) {
+  .navbar-navigation-left {
+    display: none;
+  }
+}
+
 .navbar-navigation-left .left-img {
   width: 50%;
   position: absolute;
