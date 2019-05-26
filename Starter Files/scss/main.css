@@ -36,8 +36,8 @@ body {
 .navbar-navigation-left .left-img {
   width: 50%;
   position: absolute;
-  -webkit-box-shadow: 0 15pb 60px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 15pb 60px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 15px 60px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 15px 60px rgba(0, 0, 0, 0.4);
   opacity: .7;
   border-radius: 10px;
 }
@@ -45,6 +45,12 @@ body {
 @media (max-width: 1300px) {
   .navbar-navigation-left .left-img {
     width: 55%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar-navigation-left .left-img {
+    width: 65%;
   }
 }
 
