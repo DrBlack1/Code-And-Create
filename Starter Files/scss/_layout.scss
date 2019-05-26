@@ -179,6 +179,10 @@
             @media(max-width: 1600px) {
                 font-size: 18px;
             }
+
+            @media(max-width: 1000px) {
+                font-size: 14px;
+            }
         }
     }
 }
@@ -219,6 +223,10 @@
 
             &:hover {
                 color: $color-primary;
+            }
+
+            @media(max-width: 1000px) {
+                font-size: 35px;
             }
         }
     }

@@ -249,6 +249,12 @@ body {
   }
 }
 
+@media (max-width: 1000px) {
+  .about-us-right .description {
+    font-size: 14px;
+  }
+}
+
 .gallery .cards-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -309,6 +315,12 @@ body {
 
 .footer .social-media-link:hover {
   color: #d3ab55;
+}
+
+@media (max-width: 1000px) {
+  .footer .social-media-link {
+    font-size: 35px;
+  }
 }
 
 .footer-copyright-paragraph {
