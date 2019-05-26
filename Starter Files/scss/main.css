@@ -534,6 +534,12 @@ body {
   text-transform: capitalize;
 }
 
+@media (max-width: 900px) {
+  .card-overlay-heading {
+    font-size: 35px;
+  }
+}
+
 .card-overlay-paragraph {
   font-family: "Josefin Sans", sans-serif;
   font-size: 30px;
@@ -541,6 +547,12 @@ body {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: capitalize;
+}
+
+@media (max-width: 900px) {
+  .card-overlay-paragraph {
+    font-size: 20px;
+  }
 }
 
 .card-overlay-btn {
