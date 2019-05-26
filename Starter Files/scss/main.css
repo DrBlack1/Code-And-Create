@@ -341,6 +341,13 @@ body {
   margin-bottom: 70px;
 }
 
+@media (max-width: 500px) {
+  .footer .social-media {
+    width: 200px;
+    margin-bottom: 40px;
+  }
+}
+
 .footer .social-media-item {
   list-style: none;
 }
