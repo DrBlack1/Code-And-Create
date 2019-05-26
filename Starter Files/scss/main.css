@@ -347,6 +347,13 @@ body {
   z-index: 300;
 }
 
+@media (max-width: 800px) {
+  .hamburger-menu {
+    width: 35px;
+    height: 35px;
+  }
+}
+
 .hamburger-menu .menu {
   display: -webkit-box;
   display: -ms-flexbox;

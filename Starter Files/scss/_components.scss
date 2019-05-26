@@ -6,6 +6,11 @@
     right: 5%;
     z-index: 300;
 
+    @media(max-width: 800px) {
+        width: 35px;
+        height: 35px;
+    }
+
     .menu {
         @extend %fullSpace;
         display: flex;
