@@ -177,6 +177,12 @@
             border-radius: 30px;
             outline: none;
             cursor: pointer;
+
+            @media(max-width: 900px) {
+                font-size: 12px;
+                width: 130px;
+                height: 30px;
+            }
         }
     }
 
