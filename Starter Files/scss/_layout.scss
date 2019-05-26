@@ -133,6 +133,10 @@
             left: -150px;
         }
 
+        @media(max-width: 800px) {
+            display: none;
+        }
+
         img {
             width: 100%;
             opacity: .7;

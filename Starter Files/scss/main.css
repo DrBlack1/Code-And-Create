@@ -187,6 +187,12 @@ body {
   }
 }
 
+@media (max-width: 800px) {
+  .about-us-left {
+    display: none;
+  }
+}
+
 .about-us-left img {
   width: 100%;
   opacity: .7;
