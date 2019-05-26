@@ -688,9 +688,15 @@ body {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .card-overlay-paragraph {
     font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .card-overlay-paragraph {
+    display: none;
   }
 }
 
