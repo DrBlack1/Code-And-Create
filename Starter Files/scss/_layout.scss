@@ -257,6 +257,10 @@
             @media(max-width: 1000px) {
                 font-size: 35px;
             }
+
+            @media(max-width: 500px) {
+                font-size: 25px;
+            }
         }
     }
 
@@ -270,6 +274,10 @@
             width: 70%;
             margin: auto;
             text-align: center;
+        }
+
+        @media(max-width: 500px) {
+            font-size: 14px;
         }
     }
 }

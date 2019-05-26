@@ -370,6 +370,12 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .footer .social-media-link {
+    font-size: 25px;
+  }
+}
+
 .footer-copyright-paragraph {
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
@@ -384,6 +390,12 @@ body {
     width: 70%;
     margin: auto;
     text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-copyright-paragraph {
+    font-size: 14px;
   }
 }
 
