@@ -638,6 +638,14 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  .card-overlay-btn {
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+  }
+}
+
 .card-img {
   -o-object-fit: cover;
      object-fit: cover;

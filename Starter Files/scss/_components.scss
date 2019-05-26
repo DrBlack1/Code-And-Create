@@ -206,6 +206,12 @@
                 width: 130px;
                 height: 30px;
             }
+
+            @media(max-width: 600px) {
+                font-size: 10px;
+                width: 100px;
+                height: 30px;
+            }
         }
     }
 
