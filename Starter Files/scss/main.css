@@ -372,6 +372,12 @@ body {
   margin-bottom: 40px;
 }
 
+@media (max-width: 1600px) {
+  .main-heading {
+    font-size: 80px;
+  }
+}
+
 .sub-heading {
   font-family: "Josefin Sans", sans-serif;
   font-size: 60px;
