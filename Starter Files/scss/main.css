@@ -175,6 +175,12 @@ body {
   left: -200px;
 }
 
+@media (max-width: 1300px) {
+  .about-us-left {
+    left: -150px;
+  }
+}
+
 .about-us-left img {
   width: 100%;
   opacity: .7;
@@ -195,6 +201,12 @@ body {
   padding: 0 100px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+@media (max-width: 1300px) {
+  .about-us-right {
+    padding: 0 50px;
+  }
 }
 
 .about-us-right .stars {
