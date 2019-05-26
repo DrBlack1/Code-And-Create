@@ -562,6 +562,13 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .sub-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+
 .main-btn {
   width: 170px;
   height: 45px;
