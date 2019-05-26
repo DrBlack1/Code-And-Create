@@ -165,6 +165,10 @@
             @media(max-width: 900px) {
                 font-size: 35px;
             }
+
+            @media(max-width: 600px) {
+                font-size: 25px;
+            }
         }
 
         &-paragraph {
@@ -175,6 +179,10 @@
 
             @media(max-width: 900px) {
                 font-size: 20px;
+            }
+
+            @media(max-width: 600px) {
+                font-size: 25px;
             }
         }
 

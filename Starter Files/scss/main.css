@@ -587,6 +587,12 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  .card-overlay-heading {
+    font-size: 25px;
+  }
+}
+
 .card-overlay-paragraph {
   font-family: "Josefin Sans", sans-serif;
   font-size: 30px;
@@ -599,6 +605,12 @@ body {
 @media (max-width: 900px) {
   .card-overlay-paragraph {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-overlay-paragraph {
+    font-size: 25px;
   }
 }
 
