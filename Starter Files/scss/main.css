@@ -411,6 +411,12 @@ body {
   }
 }
 
+@media (max-width: 1000px) {
+  .main-heading {
+    font-size: 60px;
+  }
+}
+
 .sub-heading {
   font-family: "Josefin Sans", sans-serif;
   font-size: 60px;
@@ -431,6 +437,12 @@ body {
   .sub-heading {
     font-size: 40px;
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .sub-heading {
+    font-size: 30px;
   }
 }
 
