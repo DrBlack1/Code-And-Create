@@ -352,6 +352,7 @@ body {
   border: 3px solid #d3ab55;
   border-radius: 50%;
   margin-right: 20px;
+  text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -361,6 +362,14 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .logo {
+    font-size: 50px;
+    width: 90px;
+    height: 90px;
+  }
 }
 
 .main-name {
