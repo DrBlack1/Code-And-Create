@@ -219,6 +219,12 @@ body {
   padding-left: 50px;
 }
 
+@media (max-width: 1600px) {
+  .about-us-right .description {
+    font-size: 18px;
+  }
+}
+
 .gallery .cards-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
