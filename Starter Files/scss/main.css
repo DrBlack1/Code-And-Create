@@ -283,6 +283,12 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .about-us-right .description {
+    font-size: 12px;
+  }
+}
+
 .gallery .cards-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
