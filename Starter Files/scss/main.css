@@ -381,6 +381,12 @@ body {
   text-transform: uppercase;
 }
 
+@media (max-width: 1000px) {
+  .main-name {
+    font-size: 40px;
+  }
+}
+
 .sub-name {
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;

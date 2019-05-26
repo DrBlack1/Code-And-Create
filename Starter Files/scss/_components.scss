@@ -47,6 +47,10 @@
     font-size: 50px;
     color: $color-secondary;
     @include textStyles;
+
+    @media(max-width: 1000px) {
+        font-size: 40px;
+    }
 }
 
 .sub-name {
