@@ -143,6 +143,12 @@ body {
   letter-spacing: 4px;
 }
 
+@media (max-width: 600px) {
+  .navbar-navigation .nav-list-link {
+    font-size: 40px;
+  }
+}
+
 .checkbox:checked ~ .navbar-navigation .navbar-navigation-left {
   left: 0;
 }

@@ -96,6 +96,10 @@
                     color: $color-primary;
                     letter-spacing: 4px;
                 }
+
+                @media(max-width: 600px) {
+                    font-size: 40px;
+                }
             }
         }
     }
