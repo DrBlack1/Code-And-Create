@@ -314,6 +314,12 @@ body {
           flex-direction: column;
 }
 
+@media (max-width: 500px) {
+  .footer {
+    padding: 40px 0;
+  }
+}
+
 .footer-header {
   display: -webkit-box;
   display: -ms-flexbox;

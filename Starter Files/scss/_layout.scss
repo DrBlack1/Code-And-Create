@@ -219,6 +219,10 @@
     @include flexLayout;
     flex-direction: column;
 
+    @media(max-width: 500px) {
+        padding: 40px 0;
+    }
+
     &-header {
         display: flex;
         align-items: center;
