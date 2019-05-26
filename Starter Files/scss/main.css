@@ -414,6 +414,12 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .hamburger-menu .menu-line {
+    height: 2px;
+  }
+}
+
 .logo {
   font-size: 70px;
   color: #d3ab55;
