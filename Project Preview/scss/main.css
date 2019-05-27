@@ -127,6 +127,8 @@ html {
   left: 0;
   width: inherit;
   height: inherit;
+  visibility: hidden;
+  opacity: 0;
   -webkit-animation: slideshow 20s linear infinite;
           animation: slideshow 20s linear infinite;
 }

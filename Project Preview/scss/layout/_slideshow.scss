@@ -11,6 +11,8 @@
         left: 0;
         width: inherit;
         height: inherit;
+        visibility: hidden;
+        opacity: 0;
         animation: slideshow 20s linear infinite;
 
         img {
@@ -39,6 +41,8 @@
         }
     }
 }
+
+
 
 @keyframes slideshow {
     0% {
