@@ -129,6 +129,13 @@ html {
   height: inherit;
 }
 
+.slideshow-slide img {
+  width: inherit;
+  height: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .logo {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
