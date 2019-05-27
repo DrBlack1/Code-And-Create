@@ -3,4 +3,15 @@
     height: 4rem;
     text-decoration: none;
     border: .1rem solid #000;
+    position: relative;
+    @include flexPosition(space-around);
+
+    &-bg {
+        width: 4rem;
+        height: 4rem;
+        background-color: color(primary);
+        border-radius: 5rem;
+        position: absolute;
+        left: 0;
+    }
 }
