@@ -27,3 +27,15 @@
     justify-content: $justCont;
     align-items: $alignIte;
 }
+
+@mixin footerList {
+    &-heading {
+        font-size: size(lg);
+        color: color(primary);
+    }
+
+    &-item {
+        list-style: none;
+        margin: 1rem 0;
+    }
+}
