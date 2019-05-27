@@ -75,3 +75,7 @@
         }
     }
 }
+
+.products-btn {
+    @include flexPosition;
+}
