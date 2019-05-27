@@ -280,6 +280,9 @@ html {
   border: 0.1rem solid #333;
   border-radius: .5rem;
   color: #333;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .product-description-heading {
