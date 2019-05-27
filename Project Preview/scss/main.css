@@ -111,10 +111,6 @@ html {
   color: #999999;
 }
 
-.dropdown {
-  display: none;
-}
-
 .logo {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
