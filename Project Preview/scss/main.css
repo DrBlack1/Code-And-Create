@@ -302,6 +302,8 @@ html {
   color: #f5b149;
   display: block;
   padding: .5rem 1rem;
+  border: 0.1rem solid #f5b149;
+  background-color: #666666;
 }
 
 .logo {

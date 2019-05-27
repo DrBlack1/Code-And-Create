@@ -56,6 +56,8 @@
             color: color(quaternary);
             display: block;
             padding: .5rem 1rem;
+            border: .1rem solid color(quaternary);
+            background-color: lighten(color(primary), 20%);
         }
     }
 }
