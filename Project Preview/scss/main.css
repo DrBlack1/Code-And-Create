@@ -145,6 +145,11 @@ html {
   padding: 5rem;
 }
 
+.slideshow-content h2 {
+  font-size: 4.2rem;
+  color: #333;
+}
+
 .logo {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;

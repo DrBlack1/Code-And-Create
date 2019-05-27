@@ -26,5 +26,10 @@
         left: 6rem;
         max-width: 40rem;
         padding: 5rem;
+
+        h2 {
+            font-size: size(xl) + 1.2rem;
+            color: color(primary);
+        }
     }
 }
