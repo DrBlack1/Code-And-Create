@@ -282,6 +282,16 @@ html {
   color: #333;
 }
 
+.product-description-heading {
+  font-size: 3rem;
+}
+
+.product-description-price {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 1rem 0;
+}
+
 .logo {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
