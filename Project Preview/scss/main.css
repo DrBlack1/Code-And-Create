@@ -20,4 +20,20 @@ html {
   grid-row-gap: 1.6rem;
   background-color: #f2f0f1;
 }
+
+.header {
+  grid-column: 1 / -1;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr (minmax(min-content, 16rem))[7] 1fr;
+      grid-template-columns: 1fr repeat(7, minmax(-webkit-min-content, 16rem)) 1fr;
+      grid-template-columns: 1fr repeat(7, minmax(min-content, 16rem)) 1fr;
+  -ms-grid-rows: (min-content)[3];
+      grid-template-rows: repeat(3, -webkit-min-content);
+      grid-template-rows: repeat(3, min-content);
+  grid-gap: 2rem;
+}
 /*# sourceMappingURL=main.css.map */
