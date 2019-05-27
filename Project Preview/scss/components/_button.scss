@@ -14,4 +14,20 @@
         position: absolute;
         left: 0;
     }
+
+    %-text {
+        font-size: size(xs);
+        text-transform: uppercase;
+        color: color(primary);
+    }
+
+    .arrow {
+        @include flexPosition;
+
+        &-line {
+            height: .2rem;
+            background-color: color(secondary);
+            position: absolute;
+        }
+    }
 }
