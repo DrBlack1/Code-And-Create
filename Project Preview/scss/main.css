@@ -481,6 +481,10 @@ html {
           align-items: center;
 }
 
+.contact .socail-icons-link i {
+  font-size: 2rem;
+}
+
 .logo {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;

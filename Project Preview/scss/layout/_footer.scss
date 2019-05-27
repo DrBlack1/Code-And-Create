@@ -81,6 +81,10 @@
             border: .1rem solid color(primary);
             border-radius: 100%;
             @include flexPosition;
+
+            i {
+                font-size: size(md);
+            }
         }
     }
 }
