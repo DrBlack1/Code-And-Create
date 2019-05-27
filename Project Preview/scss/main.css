@@ -292,6 +292,18 @@ html {
   margin: 1rem 0;
 }
 
+.product-description-price span {
+  font-weight: 600;
+}
+
+.product-description-btn {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #f5b149;
+  display: block;
+  padding: .5rem 1rem;
+}
+
 .logo {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
