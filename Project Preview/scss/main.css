@@ -198,10 +198,9 @@ html {
   position: absolute;
   top: -1.5rem;
   left: 7.3rem;
-  border-top: 15px solid red;
-  border-right: 15px solid green;
+  border-right: 15px solid transparent;
   border-bottom: 15px solid orange;
-  border-left: 15px solid blue;
+  border-left: 15px solid transparent;
 }
 
 .dropdown-item {
