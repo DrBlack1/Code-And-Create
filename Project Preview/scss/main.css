@@ -153,6 +153,11 @@ html {
   font-weight: bold;
 }
 
+.dropdown-li:hover .dropdown {
+  visibility: visible;
+  opacity: 1;
+}
+
 .dropdown {
   position: absolute;
   top: 3rem;
@@ -162,6 +167,10 @@ html {
   padding: 1rem;
   text-align: center;
   border-radius: 0.2rem;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
 }
 
 .dropdown-list {
