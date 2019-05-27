@@ -265,6 +265,11 @@ html {
   position: relative;
 }
 
+.product:hover .product-description {
+  opacity: 1;
+  visibility: visible;
+}
+
 .product-img {
   width: 100%;
 }
@@ -283,6 +288,8 @@ html {
   text-align: center;
   opacity: 0;
   visibility: hidden;
+  -webkit-transition: all 1s .5s;
+  transition: all 1s .5s;
 }
 
 .product-description-heading {
