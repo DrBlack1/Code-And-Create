@@ -1,0 +1,12 @@
+@mixin navigation {
+    &-list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+
+    &-item {
+        list-style: none;
+    }
+}
