@@ -31,5 +31,10 @@
             font-size: size(xl) + 1.2rem;
             color: color(primary);
         }
+
+        p {
+            margin: 1rem 0;
+            font-size: size(sm);
+        }
     }
 }

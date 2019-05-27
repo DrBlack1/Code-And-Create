@@ -150,6 +150,11 @@ html {
   color: #333;
 }
 
+.slideshow-content p {
+  margin: 1rem 0;
+  font-size: 1.8rem;
+}
+
 .logo {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
