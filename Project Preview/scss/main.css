@@ -485,5 +485,25 @@ html {
   height: .2rem;
   background-color: #ffe;
   position: absolute;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+.btn .arrow-line-1 {
+  width: 2rem;
+  -webkit-transform: translateX(-0.7rem);
+          transform: translateX(-0.7rem);
+}
+
+.btn .arrow-line-2 {
+  width: 1rem;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
+.btn .arrow-line-3 {
+  width: 1rem;
+  -webkit-transform: rotateZ(-45deg);
+          transform: rotateZ(-45deg);
 }
 /*# sourceMappingURL=main.css.map */

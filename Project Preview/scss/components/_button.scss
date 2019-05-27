@@ -28,6 +28,22 @@
             height: .2rem;
             background-color: color(secondary);
             position: absolute;
+            transform-origin: right;
+        }
+
+        &-line-1 {
+            width: 2rem;
+            transform: translateX(-0.7rem);
+        }
+
+        &-line-2 {
+            width: 1rem;
+            transform: rotateZ(45deg);
+        }
+
+        &-line-3 {
+            width: 1rem;
+            transform: rotateZ(-45deg);
         }
     }
 }
