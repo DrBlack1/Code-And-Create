@@ -5,7 +5,8 @@
         "main.scss",
         "abstracts/_variables.scss",
         "abstracts/_mixins.scss",
-        "base/_base.scss"
+        "base/_base.scss",
+        "layout/_header.scss"
     ],
     "names": [],
     "file": "main.css"
