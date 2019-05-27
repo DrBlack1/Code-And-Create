@@ -18,4 +18,13 @@
             object-fit: cover;
         }
     }
+
+    &-content {
+        background-color: rgba(color(secondary), .9);
+        position: absolute;
+        bottom: 6rem;
+        left: 6rem;
+        max-width: 40rem;
+        padding: 5rem;
+    }
 }
