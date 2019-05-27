@@ -395,6 +395,12 @@ html {
   color: #8c8c8c;
 }
 
+.contact-heading {
+  font-size: 3rem;
+  color: #333;
+  text-align: center;
+}
+
 .logo {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;

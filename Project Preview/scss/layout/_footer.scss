@@ -13,3 +13,11 @@
 .contct-list {
     @include footerList;
 }
+
+.contact {
+    &-heading {
+        font-size: size(xl);
+        color: color(primary);
+        text-align: center;
+    }
+}
