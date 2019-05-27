@@ -37,6 +37,11 @@
             border: .1rem solid darken(color(primary), 10%);
             border-radius: .3rem;
             outline: none;
+            transition: border .5s;
+
+            &:focus:not([type="submit"]) {
+                border: .1rem solid darken(color(quaternary), 30%);
+            }
         }
 
         &-text {

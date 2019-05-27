@@ -420,6 +420,12 @@ html {
   border: 0.1rem solid #1a1a1a;
   border-radius: .3rem;
   outline: none;
+  -webkit-transition: border .5s;
+  transition: border .5s;
+}
+
+.contact .inputs-group input:focus:not([type="submit"]) {
+  border: 0.1rem solid #9c6209;
 }
 
 .contact .inputs-group-text {
