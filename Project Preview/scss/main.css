@@ -440,6 +440,12 @@ html {
   width: 40%;
   color: #ffe;
   background-color: #666666;
+  -webkit-transition: background-color .2s;
+  transition: background-color .2s;
+}
+
+.contact .inputs-group-btn:hover {
+  background-color: #333;
 }
 
 .logo {
