@@ -270,8 +270,14 @@ html {
   visibility: visible;
 }
 
+.product:hover .product-img {
+  opacity: .5;
+}
+
 .product-img {
   width: 100%;
+  -webkit-transition: all 1s .5s;
+  transition: all 1s .5s;
 }
 
 .product-description {

@@ -26,8 +26,13 @@
         visibility: visible;
     }
 
+    &:hover .product-img {
+        opacity: .5;
+    }
+
     &-img {
         width: 100%;
+        transition: all 1s .5s;
     }
 
     &-description {
