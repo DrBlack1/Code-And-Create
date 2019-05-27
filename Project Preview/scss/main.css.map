@@ -9,7 +9,8 @@
         "layout/_header.scss",
         "layout/_navigation.scss",
         "components/_logo.scss",
-        "components/_heading.scss"
+        "components/_heading.scss",
+        "components/_dropdown.scss"
     ],
     "names": [],
     "file": "main.css"
