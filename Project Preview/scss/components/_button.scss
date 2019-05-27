@@ -13,6 +13,10 @@
         color: color(secondary);
     }
 
+    &:hover .arrow {
+        transform: translateX(1rem);
+    }
+
     &-bg {
         width: 4rem;
         height: 4rem;
@@ -32,6 +36,7 @@
 
     .arrow {
         @include flexPosition;
+        transition: transform .2s;
 
         &-line {
             height: .2rem;

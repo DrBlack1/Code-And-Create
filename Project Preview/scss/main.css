@@ -467,6 +467,11 @@ html {
   color: #ffe;
 }
 
+.btn:hover .arrow {
+  -webkit-transform: translateX(1rem);
+          transform: translateX(1rem);
+}
+
 .btn-bg {
   width: 4rem;
   height: 4rem;
@@ -495,6 +500,10 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
 }
 
 .btn .arrow-line {
