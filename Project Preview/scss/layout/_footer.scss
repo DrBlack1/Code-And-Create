@@ -20,4 +20,20 @@
         color: color(primary);
         text-align: center;
     }
+
+    &-paragraph {
+        font-size: size(lg);
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .inputs-group {
+        display: flex;
+
+        input {
+            padding: 1rem;
+            font-size: size(xs);
+            margin: 1rem .5rem;
+        }
+    }
 }

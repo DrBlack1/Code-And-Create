@@ -401,6 +401,24 @@ html {
   text-align: center;
 }
 
+.contact-paragraph {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.contact .inputs-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact .inputs-group input {
+  padding: 1rem;
+  font-size: 1.6rem;
+  margin: 1rem .5rem;
+}
+
 .logo {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
