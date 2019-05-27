@@ -1,5 +1,11 @@
 .dropdown-li {
     position: relative;
+
+    &::after {
+        font-family: 'Font Awesome 5 Free';
+        content: '/f078';
+        font-weight: bold;
+    }
 }
 
 .dropdown {
