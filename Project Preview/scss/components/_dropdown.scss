@@ -11,4 +11,13 @@
     padding: 1rem;
     text-align: center;
     border-radius: 0.2rem;
+
+    &-item {
+        margin: .5rem 0;
+    }
+
+    &-link {
+        font-weight: 300;
+        font-size: size(xs);
+    }
 }

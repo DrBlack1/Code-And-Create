@@ -184,4 +184,13 @@ html {
 .dropdown-link:hover {
   color: #999999;
 }
+
+.dropdown-item {
+  margin: .5rem 0;
+}
+
+.dropdown-link {
+  font-weight: 300;
+  font-size: 1.6rem;
+}
 /*# sourceMappingURL=main.css.map */
