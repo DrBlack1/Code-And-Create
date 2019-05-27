@@ -63,4 +63,24 @@
             }
         }
     }
+
+    .socail-icons {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        box-sizing: border-box;
+
+        &-item {
+            list-style: none;
+        }
+
+        &-link {
+            text-decoration: none;
+            width: 4rem;
+            height: 4rem;
+            border: .1rem solid color(primary);
+            border-radius: 100%;
+            @include flexPosition;
+        }
+    }
 }
