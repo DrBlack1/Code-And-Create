@@ -472,6 +472,10 @@ html {
           transform: translateX(1rem);
 }
 
+.btn:hover .arrow-line-1 {
+  width: 2rem;
+}
+
 .btn-bg {
   width: 4rem;
   height: 4rem;
@@ -518,6 +522,8 @@ html {
   width: 0;
   -webkit-transform: translateX(-0.7rem);
           transform: translateX(-0.7rem);
+  -webkit-transition: width .2s;
+  transition: width .2s;
 }
 
 .btn .arrow-line-2 {

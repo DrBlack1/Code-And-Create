@@ -17,6 +17,10 @@
         transform: translateX(1rem);
     }
 
+    &:hover .arrow-line-1 {
+        width: 2rem;
+    }
+
     &-bg {
         width: 4rem;
         height: 4rem;
@@ -48,6 +52,7 @@
         &-line-1 {
             width: 0;
             transform: translateX(-0.7rem);
+            transition: width .2s;
         }
 
         &-line-2 {
