@@ -432,6 +432,8 @@ html {
 
 .contact .inputs-group-btn {
   width: 40%;
+  color: #ffe;
+  background-color: #666666;
 }
 
 .logo {

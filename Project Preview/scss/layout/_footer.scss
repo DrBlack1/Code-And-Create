@@ -49,6 +49,8 @@
 
         &-btn {
             width: 40%;
+            color: color(secondary);
+            background-color: lighten(color(primary), 20%);
         }
     }
 }
