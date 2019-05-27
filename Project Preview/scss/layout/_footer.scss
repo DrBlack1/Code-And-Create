@@ -5,3 +5,11 @@
     padding: 5rem 0;
     border-top: .1rem solid color(primary);
 }
+
+.footer-nav {
+    @include footerList;
+}
+
+.contct-list {
+    @include footerList;
+}
