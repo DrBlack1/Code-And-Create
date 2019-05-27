@@ -35,6 +35,7 @@ html {
       grid-template-rows: repeat(3, -webkit-min-content);
       grid-template-rows: repeat(3, min-content);
   grid-gap: 2rem;
+  z-index: 100;
 }
 
 .first-nav {
