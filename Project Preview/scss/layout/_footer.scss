@@ -34,6 +34,9 @@
             padding: 1rem;
             font-size: size(xs);
             margin: 1rem .5rem;
+            border: .1rem solid darken(color(primary), 10%);
+            border-radius: .3rem;
+            outline: none;
         }
     }
 }

@@ -417,6 +417,9 @@ html {
   padding: 1rem;
   font-size: 1.6rem;
   margin: 1rem .5rem;
+  border: 0.1rem solid #1a1a1a;
+  border-radius: .3rem;
+  outline: none;
 }
 
 .logo {
