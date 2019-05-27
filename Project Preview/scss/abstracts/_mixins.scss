@@ -43,5 +43,10 @@
         font-size: size(xs);
         text-decoration: none;
         color: lighten(color(primary), 15%);
+        transition: color .2s;
+
+        &:hover {
+            color: lighten(color(primary), 35%);
+        }
     }
 }

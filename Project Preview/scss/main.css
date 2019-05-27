@@ -365,6 +365,12 @@ html {
   font-size: 1.6rem;
   text-decoration: none;
   color: #595959;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+
+.footer-nav-link:hover {
+  color: #8c8c8c;
 }
 
 .contct-list-heading {
@@ -381,6 +387,12 @@ html {
   font-size: 1.6rem;
   text-decoration: none;
   color: #595959;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+
+.contct-list-link:hover {
+  color: #8c8c8c;
 }
 
 .logo {
