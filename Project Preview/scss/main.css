@@ -36,4 +36,19 @@ html {
       grid-template-rows: repeat(3, min-content);
   grid-gap: 2rem;
 }
+
+.logo {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  padding: 1rem;
+}
+
+.logo-img {
+  width: 10rem;
+  height: 100%;
+}
 /*# sourceMappingURL=main.css.map */
