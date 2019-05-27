@@ -422,6 +422,18 @@ html {
   outline: none;
 }
 
+.contact .inputs-group-text {
+  width: 50%;
+}
+
+.contact .inputs-group-email {
+  width: 60%;
+}
+
+.contact .inputs-group-btn {
+  width: 40%;
+}
+
 .logo {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;

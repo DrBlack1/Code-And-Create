@@ -38,5 +38,17 @@
             border-radius: .3rem;
             outline: none;
         }
+
+        &-text {
+            width: 50%;
+        }
+
+        &-email {
+            width: 60%;
+        }
+
+        &-btn {
+            width: 40%;
+        }
     }
 }
