@@ -37,6 +37,24 @@ html {
   grid-gap: 2rem;
 }
 
+.first-nav {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 3;
+  grid-column: 7 / 10;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+}
+
+.second-nav {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 5;
+  grid-column: 3 / 8;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+}
+
 .logo {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
