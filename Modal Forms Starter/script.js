@@ -6,15 +6,18 @@ const loginBtn = document.querySelector('.login-btn');
 
 const signupX = document.querySelector('.signup-x');
 const loginX = document.querySelector('.login-x');
+const formContainer = document.querySelector('.form-container');
 
 
 
 signupBtn.addEventListener('click', () => {
     signupModal.classList.add('display')
+    formContainer.classList.add("disable")
 });
 
 loginBtn.addEventListener('click', () => {
     loginModal.classList.add('display')
+    formContainer.classList.add("disable")
 });
 
 signupX.addEventListener('click', () => {
