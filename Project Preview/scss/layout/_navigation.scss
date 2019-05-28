@@ -6,6 +6,10 @@
     @include response(xl) {
         grid-column: 6 /10;
     }
+
+    @include response(lg) {
+        grid-column: 5 /10;
+    }
 }
 
 .second-nav {
