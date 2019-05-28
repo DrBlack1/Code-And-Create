@@ -6,6 +6,10 @@
 
 html {
     font-size: 62.5%;
+
+    @include response(md) {
+        font-size: 56.25%;
+    }
 }
 
 .container {

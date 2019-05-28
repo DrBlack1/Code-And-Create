@@ -8,6 +8,12 @@ html {
   font-size: 62.5%;
 }
 
+@media (max-width: 760px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
 .container {
   display: -ms-grid;
   display: grid;
