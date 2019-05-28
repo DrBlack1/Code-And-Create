@@ -17,3 +17,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.banner-text h1 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 80px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
