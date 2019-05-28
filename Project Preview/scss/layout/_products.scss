@@ -101,6 +101,11 @@
             @include response(lg) {
                 padding: .2rem .5rem;
             }
+
+            @include response(sm) {
+                padding: .5rem .7rem;
+                width: 7rem;
+            }
         }
     }
 }

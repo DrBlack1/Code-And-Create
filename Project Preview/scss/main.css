@@ -448,6 +448,13 @@ html {
   }
 }
 
+@media (max-width: 560px) {
+  .product-description-btn {
+    padding: .5rem .7rem;
+    width: 7rem;
+  }
+}
+
 .products-btn {
   display: -webkit-box;
   display: -ms-flexbox;
