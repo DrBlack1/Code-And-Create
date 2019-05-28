@@ -85,7 +85,7 @@ html {
   .first-nav {
     -ms-grid-column: 6;
     -ms-grid-column-span: 4;
-    grid-column: 6 /10;
+    grid-column: 6 / 10;
   }
 }
 
@@ -93,7 +93,15 @@ html {
   .first-nav {
     -ms-grid-column: 5;
     -ms-grid-column-span: 5;
-    grid-column: 5 /10;
+    grid-column: 5 / 10;
+  }
+}
+
+@media (max-width: 760px) {
+  .first-nav {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 6;
+    grid-column: 4 / 10;
   }
 }
 
@@ -138,7 +146,13 @@ html {
   .second-nav {
     -ms-grid-column: 2;
     -ms-grid-column-span: 7;
-    grid-column: 2 /9;
+    grid-column: 2 / 9;
+  }
+}
+
+@media (max-width: 760px) {
+  .second-nav {
+    grid-column: 1 / -1;
   }
 }
 
