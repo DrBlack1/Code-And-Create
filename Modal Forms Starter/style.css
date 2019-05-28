@@ -92,3 +92,16 @@
     color: #222;
     cursor: pointer;
 }
+
+.form-header {
+    text-align: center;
+    margin: 80px 0 150px 0;
+    color: #fff;
+}
+
+.form-header h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
