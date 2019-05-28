@@ -26,3 +26,12 @@
     letter-spacing: 2px;
     margin-bottom: 30px;
 }
+
+.banner-text p {
+    color: #eee;
+    font-family: "Josefin sans", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: right;
+}
