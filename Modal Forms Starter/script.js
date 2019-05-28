@@ -21,8 +21,10 @@ loginBtn.addEventListener('click', () => {
 
 signupX.addEventListener('click', () => {
     signupModal.classList.remove('display')
+    formContainer.classList.remove("disable")
 });
 
 loginX.addEventListener('click', () => {
     loginModal.classList.remove('display')
+    formContainer.classList.remove("disable")
 });
