@@ -152,6 +152,12 @@ html {
   }
 }
 
+@media (max-width: 1000px) {
+  .slideshow {
+    height: 60vh;
+  }
+}
+
 .slideshow-slide {
   position: absolute;
   top: 0;

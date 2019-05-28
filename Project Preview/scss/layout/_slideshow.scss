@@ -9,6 +9,10 @@
         height: 70vh;
     }
 
+    @include response(lg) {
+        height: 60vh;
+    }
+
     &-slide {
         position: absolute;
         top: 0;
