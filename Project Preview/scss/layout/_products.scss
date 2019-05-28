@@ -84,6 +84,10 @@
             padding: .5rem 1rem;
             border: .1rem solid color(quaternary);
             background-color: lighten(color(primary), 20%);
+
+            @include response(lg) {
+                padding: .2rem .5rem;
+            }
         }
     }
 }

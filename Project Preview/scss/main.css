@@ -382,6 +382,12 @@ html {
   background-color: #666666;
 }
 
+@media (max-width: 1000px) {
+  .product-description-btn {
+    padding: .2rem .5rem;
+  }
+}
+
 .products-btn {
   display: -webkit-box;
   display: -ms-flexbox;
