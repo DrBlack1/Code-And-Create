@@ -35,3 +35,10 @@
     letter-spacing: 1px;
     text-align: right;
 }
+
+.btns {
+    position: absolute;
+    top: 50px;
+    right: 60px;
+}
+
