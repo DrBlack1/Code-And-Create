@@ -52,4 +52,14 @@
     letter-spacing: 1px;
     outline: none;
     cursor: pointer;
+    color: #fff;
+    border: 2px solid tomato;
+}
+
+.login-btn {
+    background-color: tomato;
+}
+
+.signup-btn {
+    background-color: transparent;
 }
