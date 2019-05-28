@@ -54,6 +54,7 @@
     cursor: pointer;
     color: #fff;
     border: 2px solid tomato;
+    transition: transform 0.3s;
 }
 
 .login-btn {
@@ -62,4 +63,8 @@
 
 .signup-btn {
     background-color: transparent;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
 }
