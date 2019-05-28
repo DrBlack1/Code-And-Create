@@ -63,4 +63,10 @@
             @content;
         }
     }
+
+    @if($breakpoint == md) {
+        @media(max-width: 760px) {
+            @content;
+        }
+    }
 }
