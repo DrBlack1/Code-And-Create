@@ -38,6 +38,10 @@
         max-width: 40rem;
         padding: 5rem;
 
+        @include response(lg) {
+            padding: 2rem;
+        }
+
         h2 {
             font-size: size(xl) + 1.2rem;
             color: color(primary);

@@ -186,6 +186,12 @@ html {
   padding: 5rem;
 }
 
+@media (max-width: 1000px) {
+  .slideshow-content {
+    padding: 2rem;
+  }
+}
+
 .slideshow-content h2 {
   font-size: 4.2rem;
   color: #333;
