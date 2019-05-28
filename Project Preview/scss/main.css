@@ -128,6 +128,14 @@ html {
   color: #999999;
 }
 
+@media (max-width: 1000px) {
+  .second-nav {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 7;
+    grid-column: 2 /9;
+  }
+}
+
 .slideshow {
   grid-column: 1 / -1;
   -ms-grid-row: 2;

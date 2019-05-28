@@ -16,4 +16,8 @@
     grid-column: 3 / 8;
     grid-row: 3 / 4;
     @include navigation;
+
+    @include response(lg) {
+        grid-column: 2 /9;
+    }
 }
