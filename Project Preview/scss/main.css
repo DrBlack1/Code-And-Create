@@ -417,6 +417,13 @@ html {
   border-top: 0.1rem solid #333;
 }
 
+@media (max-width: 1000px) {
+  .footer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .footer-nav-heading {
   font-size: 2.5rem;
   color: #333;
@@ -459,6 +466,16 @@ html {
 
 .contct-list-link:hover {
   color: #8c8c8c;
+}
+
+@media (max-width: 1000px) {
+  .contact {
+    padding: 0 10rem;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-top: 4rem;
+  }
 }
 
 .contact-heading {
