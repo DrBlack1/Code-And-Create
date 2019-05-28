@@ -646,8 +646,21 @@ html {
           align-items: center;
 }
 
+@media (max-width: 560px) {
+  .contact .socail-icons-link {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
 .contact .socail-icons-link i {
   font-size: 2rem;
+}
+
+@media (max-width: 560px) {
+  .contact .socail-icons-link i {
+    font-size: 1.8rem;
+  }
 }
 
 .socail-icons-item:nth-child(1) .socail-icons-link {
