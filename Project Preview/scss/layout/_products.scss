@@ -50,14 +50,26 @@
         visibility: hidden;
         transition: all 1s .5s;
 
+        @include response(lg) {
+            padding: 1rem;
+        }
+
         &-heading {
             font-size: size(xl);
+
+            @include response(lg) {
+                font-size: size(md);
+            }
         }
 
         &-price {
             font-size: size(lg);
             font-weight: 300;
             margin: 1rem 0;
+
+            @include response(lg) {
+                font-size: size(sm);
+            }
 
             span {
                 font-weight: 600;
