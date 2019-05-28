@@ -105,3 +105,10 @@
     font-weight: 300;
     margin-bottom: 30px;
 }
+
+.form-header h3 {
+    font-family: "Montserrt", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
