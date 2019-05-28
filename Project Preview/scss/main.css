@@ -178,6 +178,12 @@ html {
   }
 }
 
+@media (max-width: 760px) {
+  .slideshow {
+    height: 50vh;
+  }
+}
+
 .slideshow-slide {
   position: absolute;
   top: 0;
