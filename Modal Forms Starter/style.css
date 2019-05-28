@@ -83,6 +83,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.display {
+    opacity: 1;
+    visibility: visible;
 }
 
 .x-btn {
