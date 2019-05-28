@@ -510,16 +510,31 @@ html {
   text-align: center;
 }
 
+@media (max-width: 760px) {
+  .contact-heading {
+    font-size: 2.5rem;
+  }
+}
+
 .contact-paragraph {
   font-size: 2.5rem;
   margin: 1rem 0;
   text-align: center;
 }
 
+@media (max-width: 760px) {
+  .contact-paragraph {
+    font-size: 2rem;
+  }
+}
+
 .contact .inputs-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contact .inputs-group input {
