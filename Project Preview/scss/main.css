@@ -111,6 +111,14 @@ html {
   }
 }
 
+@media (max-width: 560px) {
+  .first-nav {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 8;
+    grid-column: 2 / 10;
+  }
+}
+
 .second-nav {
   -ms-grid-column: 3;
   -ms-grid-column-span: 5;
