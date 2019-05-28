@@ -121,6 +121,7 @@
 
 .input-group {
     margin-bottom: 10px;
+    position: relative;
 }
 
 .input-group input {
@@ -134,3 +135,12 @@
     font-size: 16px;
     color: #ddd;
 }
+
+.input-group i {
+    position: absolute;
+    top: 30px;
+    left: 17px;
+    font-size: 18px;
+    color: #aaa;
+}
+
