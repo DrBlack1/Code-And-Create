@@ -54,11 +54,20 @@
             padding: 1rem;
         }
 
+        @include response(sm) {
+            background-color: transparent;
+            border: none;
+        }
+
         &-heading {
             font-size: size(xl);
 
             @include response(lg) {
                 font-size: size(md);
+            }
+
+            @include response(sm) {
+                display: none;
             }
         }
 
@@ -69,6 +78,10 @@
 
             @include response(lg) {
                 font-size: size(sm);
+            }
+
+            @include response(sm) {
+                display: none;
             }
 
             span {

@@ -387,6 +387,13 @@ html {
   }
 }
 
+@media (max-width: 560px) {
+  .product-description {
+    background-color: transparent;
+    border: none;
+  }
+}
+
 .product-description-heading {
   font-size: 3rem;
 }
@@ -394,6 +401,12 @@ html {
 @media (max-width: 1000px) {
   .product-description-heading {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .product-description-heading {
+    display: none;
   }
 }
 
@@ -406,6 +419,12 @@ html {
 @media (max-width: 1000px) {
   .product-description-price {
     font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .product-description-price {
+    display: none;
   }
 }
 
