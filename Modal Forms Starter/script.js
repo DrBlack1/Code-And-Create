@@ -6,3 +6,7 @@ const loginBtn = document.querySelector('.login-btn');
 signupBtn.addEventListener('click', () => {
     signupModal.classList.add('display')
 });
+
+loginBtn.addEventListener('click', () => {
+    loginModal.classList.add('display')
+});
