@@ -7,8 +7,16 @@ gulp.task('styles', function () {
 });
 
 // Scripts
+gulp.task('scripts', function () {
+    return gulp.src('package.json')
+    console.log('Starting scripts task');
+})
 
 // Images
+gulp.task('images', function () {
+    return gulp.src('package.json')
+    console.log('Starting images task');
+})
 
 gulp.task('default', function () {
     return gulp.src('package.json')
