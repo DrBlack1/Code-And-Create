@@ -9,8 +9,12 @@ gulp.task('styles', function () {
 
 // Scripts
 gulp.task('scripts', function () {
-    return gulp.src('package.json')
+    // return gulp.src('package.json')
     console.log('Starting scripts task');
+
+    return gulp.src('public/scripts/*.js')
+        .pipe(uglify())
+        .pipe(gulp.dest('public/dist'));
 })
 
 // Images
