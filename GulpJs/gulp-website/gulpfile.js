@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var uglify = require('gulp-uglify');
 
 // Styles
 gulp.task('styles', function () {
