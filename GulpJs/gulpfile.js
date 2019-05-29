@@ -9,3 +9,8 @@ gulp.task('styles', function () {
 // Scripts
 
 // Images
+
+gulp.task('default', function () {
+    return gulp.src('package.json')
+    console.lof('Starting default task');
+})
