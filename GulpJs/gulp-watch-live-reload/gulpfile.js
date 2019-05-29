@@ -23,3 +23,7 @@ gulp.task('images', function () {
 gulp.task('default', function () {
 	console.log('Starting default task');
 });
+
+gulp.task('watch', function () {
+	console.log('Starting watch task');
+});
