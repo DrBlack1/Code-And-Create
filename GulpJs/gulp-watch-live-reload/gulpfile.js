@@ -29,5 +29,6 @@ gulp.task('default', function () {
 
 gulp.task('watch', function () {
 	console.log('Starting watch task');
+	require('./server.js');
 	gulp.watch(SCRIPTS_PATH, ['scripts']);
 });
