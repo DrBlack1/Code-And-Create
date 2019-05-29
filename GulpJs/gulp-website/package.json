@@ -13,6 +13,6 @@
     "gulp-uglify": "^3.0.2"
   },
   "dependencies": {
-    "static-server": "^2.0.0"
+    "static-server": "^2.2.1"
   }
 }
