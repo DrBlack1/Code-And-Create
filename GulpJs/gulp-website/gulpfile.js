@@ -15,5 +15,10 @@ gulp.task('scripts', function () {
 // Images
 gulp.task('images', function () {
     console.log('starting images task')
-    return gulp.src('package.json')
+    return gulp.src('package.json');
+});
+
+gulp.task('default', function () {
+    console.log('Starting default task')
+    return gulp.src('package.json');
 });
