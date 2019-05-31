@@ -1,6 +1,9 @@
 var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 
+// File Paths
+var SCRIPTS_PATH = 'public/scripts/**/*.js'
+
 // Styles
 gulp.task('styles', function () {
     console.log('starting styles task')
@@ -11,7 +14,7 @@ gulp.task('styles', function () {
 gulp.task('scripts', function () {
     console.log('starting scripts task')
 
-    return gulp.src('public/scripts/*.js')
+    return gulp.src(SCRIPTS_PATH)
         .pipe(uglify())
         .pipe(gulp.dest('public/dist'));
 });
@@ -29,4 +32,5 @@ gulp.task('default', function () {
 
 gulp.task('watch', function () {
     console.log('Starting watch task');
+    gulp.watch(SCRIPTS_PATH, ['scripts']);
 });
