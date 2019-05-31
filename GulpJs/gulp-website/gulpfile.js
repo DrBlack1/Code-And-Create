@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var uglify = require('gulp-uglify');
+// var watch = require('gulp-watch');
 
 // File Paths
 var SCRIPTS_PATH = 'public/scripts/**/*.js'
@@ -31,7 +32,7 @@ gulp.task('default', function () {
 });
 
 gulp.task('watch', function () {
-    console.log('Starting watch task');
+    console.log('Starting watch task')
     // return gulp.src('package.json');
     require('.server.js');
     gulp.watch(SCRIPTS_PATH, ['scripts']);
