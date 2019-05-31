@@ -32,8 +32,8 @@ gulp.task('default', function () {
 });
 
 gulp.task('watch', function () {
-    console.log('Starting watch task')
+    console.log('starting watch task')
     // return gulp.src('package.json');
-    require('.server.js');
+    require('./server.js');
     gulp.watch(SCRIPTS_PATH, ['scripts']);
 });
