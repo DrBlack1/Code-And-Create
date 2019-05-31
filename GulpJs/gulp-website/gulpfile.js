@@ -26,3 +26,7 @@ gulp.task('default', function () {
     console.log('Starting default task')
     return gulp.src('package.json');
 });
+
+gulp.task('watch', function () {
+    console.log('Starting watch task');
+});
