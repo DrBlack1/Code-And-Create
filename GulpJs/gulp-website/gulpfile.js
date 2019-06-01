@@ -1,6 +1,5 @@
 var gulp = require('gulp');
 var uglify = require('gulp-uglify');
-// var watch = require('gulp-watch');
 
 // File Paths
 var SCRIPTS_PATH = 'public/scripts/**/*.js'
