@@ -7,7 +7,7 @@ var SCRIPTS_PATH = 'public/scripts/**/*.js'
 // Styles
 gulp.task('styles', function () {
     console.log('starting styles task')
-    return gulp.src('package.json');
+    // return gulp.src('package.json');
 });
 
 // Scripts
@@ -22,16 +22,16 @@ gulp.task('scripts', function () {
 // Images
 gulp.task('images', function () {
     console.log('starting images task')
-    return gulp.src('package.json');
+    // return gulp.src('package.json');
 });
 
 gulp.task('default', function () {
     console.log('Starting default task')
-    return gulp.src('package.json');
+    // return gulp.src('package.json');
 });
 
 gulp.task('watch', function () {
-    console.log('starting watch task');
+    console.log('Starting watch task');
     require('./server.js');
     gulp.watch(SCRIPTS_PATH, ['scripts']);
 });
