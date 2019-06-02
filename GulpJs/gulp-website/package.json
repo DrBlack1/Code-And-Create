@@ -17,6 +17,7 @@
     "gulp-clean-fix": "^0.3.4",
     "gulp-jasmine-parallel": "0.0.4",
     "gulp-series": "^1.0.2",
+    "lodash": "^4.17.11",
     "static-server": "^2.0.0"
   }
 }
