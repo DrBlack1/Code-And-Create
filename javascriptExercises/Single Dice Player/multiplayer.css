@@ -1,0 +1,346 @@
+body {
+  margin: 0px;
+  background-color: #f4f4f4;
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Black w/ opacity */
+  border-radius: 10px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  color: purple;
+  background-color: #f4f4f4;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 10px;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar {
+  width: 100%;
+  height: 4em;
+  background-color: #4e1c7a;
+  color: #fff;
+  display: flex;
+  box-shadow: 1px 1px 14px 1px rgba(0, 0, 0, 0.75);
+  flex-direction: row;
+  justify-content: center;
+  z-index: 1;
+  position: sticky;
+}
+
+.diceGameLogo {
+  color: #fff;
+  display: flex;
+  background-color: #4e1c7a;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.navText {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.logoText {
+  margin: 0;
+  margin-right: 20px;
+}
+
+.diceLogo {
+  align-self: baseline;
+  margin: 8px;
+}
+
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  margin: 0px;
+  padding: 10px;
+  margin: 0px;
+  font-size: 1.5em;
+}
+
+.navLink:hover {
+  color: yellow;
+  border-bottom: 3px solid yellow;
+}
+
+.navLink:active {
+  border-bottom: 3px solid #ffffff;
+}
+
+.navLink:visited {
+  border-bottom: 3px solid #ffffff;
+}
+
+.multiBar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  background-color: #588558;
+}
+
+.multiTitle {
+  display: flex;
+  align-items: center;
+  font-size: 1.3em;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-areas: "Header Header Header"
+    "player1 gamecont player2";
+  grid-template-columns: 1fr 200px 1fr;
+  grid-template-rows: 50px 500px;
+}
+
+.Header {
+  display: grid;
+  grid-area: Header;
+  color: grey;
+  justify-content: center;
+}
+
+.rules {
+  color: red;
+  border: none;
+  background-color: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  outline: none;
+}
+
+.rules:hover {
+  color: white;
+}
+
+#btn {
+  width: auto;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #4e1c7a;
+}
+
+#holdbtn {
+  width: auto;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #4e1c7a;
+}
+
+.player1 {
+  display: gird;
+  grid-area: player1;
+  align-items: center;
+  justify-content: center;
+}
+
+.scorep1 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  color: purple;
+}
+
+.scorep2 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  color: purple;
+}
+
+.img1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.playerDice1 {
+  max-width: 500px;
+  max-height: 500px;
+  height: auto;
+  width: auto;
+}
+
+.playerDice2 {
+  max-width: 500px;
+  max-height: 500px;
+  height: auto;
+  width: auto;
+}
+
+.img2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.gamecont {
+  display: grid;
+  grid-area: gamecont;
+  background-color: #588558;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.player {
+  color: #4e1c7a;
+  font-size: 1.7em;
+}
+
+.player2 {
+  display: gird;
+  grid-area: player2;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+
+  .navbar {
+    width: 100%;
+    height: 3em;
+    background-color: #4e1c7a;
+    color: #fff;
+    display: flex;
+    box-shadow: 1px 1px 14px 1px rgba(0, 0, 0, 0.75);
+    flex-direction: row;
+    justify-content: center;
+    z-index: 1;
+    position: sticky;
+    font-weight: 600;
+    align-items: center;
+  }
+
+  .navLink {
+    font-size: 1em;
+  }
+
+  .diceGameLogo {
+    color: #fff;
+    display: flex;
+    background-color: #4e1c7a;
+    width: 10px;
+    height: 10px;
+  }
+
+  .navText {
+    display: none;
+  }
+
+  .container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "Header"
+      "player1"
+      "gamecont"
+      "player2";
+    grid-template-columns: 100%;
+    grid-template-rows: 30px 33vh 60px 33vh;
+  }
+
+  .scorep1 h1 {
+    font-size: 1em;
+  }
+
+  .playerDice1 {
+    max-width: 100px;
+    max-height: 100px;
+    height: auto;
+    width: auto;
+  }
+
+  .scorep2 h1 {
+    font-size: 1em;
+  }
+
+  .playerDice2 {
+    max-width: 100px;
+    max-height: 100px;
+    height: auto;
+    width: auto;
+  }
+
+  .gamecont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    ;
+  }
+
+  .gamecont h1 {
+    font-size: 1em;
+  }
+
+  #btn {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  #holdbtn {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+  }
+}
