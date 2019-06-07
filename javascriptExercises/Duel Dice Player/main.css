@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --grass-green: #007f00;
+  --grass-green-accent: #004c00;
+  --racing-red: #ff0000;
+  --racing-red-accent: #b30000;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  height: 60%;
+  margin-top: 0.5rem;
+}
+
+.btns {
+  height: 40%;
+  margin-top: 0.7rem;
+}
+
+.dice__img {
+  display: flex;
+  justify-content: center;
+}
+
+.score {
+  font-family: 'Staatliches', cursive;
+}
+
+.btn {
+  font-family: 'Staatliches', cursive;
+  font-size: 25px;
+  color: #FFF;
+  width: 8em;
+  text-align: center; 
+  position: relative;
+  opacity: 0.8;
+  border: 5px;
+  padding: 1em 1.5em;
+  margin-bottom: 1em;
+  border-color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btns__start {
+  margin-right: 0.5em;
+}
+
+.btn--disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.5;
+  background-color: #666666;
+  box-shadow:0 5px 0 #4c4c4c;
+}
+
+.btn--grass-green {
+  background-color: var(--grass-green);
+  box-shadow: 0 5px 0 var(--grass-green-accent);
+}
+
+.btn--racing-red {
+  background-color: var(--racing-red);
+  box-shadow: 0 5px var(--racing-red-accent);
+}
+
+.btn--clicker:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.btn--clicker:active {
+  box-shadow: none;
+  top: 5px;
+}
