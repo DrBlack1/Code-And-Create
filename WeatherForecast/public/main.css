@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-text {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
+
+#weatherInput {
+  font-size: 40px;
+  width: 10em;
+  height: 2em;
+  outline: 0;
+  border-width: 0 0 0.2em;
+  text-align: center;
+  border-color: grey;
+}
+
+#weatherInput:focus {
+  border-color: green;
+}
+
+#submitButton {
+  font-family: 'Staatliches', cursive;
+  font-size: 25px;
+  color: #FFF;
+  width: 8em;
+  text-align: center; 
+  position: relative;
+  opacity: 0.8;
+  border: 5px;
+  padding: 1em 1.5em;
+  margin-bottom: 1em;
+  border-color: black;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #007f00;
+  margin-top: 1em;
+  box-shadow: 0 5px 0 #004c00;
+}
+
+#submitButton:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+#submitButton:active {
+  box-shadow: none;
+  top: 5px;
+}
