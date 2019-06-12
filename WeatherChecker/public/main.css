@@ -1,0 +1,100 @@
+html {
+    background: url(./cool-background.svg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.main {
+    text-align: center;
+    margin-right: 500px;
+    margin-left: 150px;
+    min-height: calc(100vh - 100px)
+}
+
+h1 {
+    padding: 50px;
+    font-size: 3rem;
+}
+
+
+
+input {
+    border: none;
+    border-bottom: 2px solid gray;
+    background: none;
+    width: 300px;
+    font-size: 2rem;
+    background-image: url(./search-location-solid.svg);
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    margin-left: 20px;
+    transition: 200ms ease-in-out;
+}
+
+input:focus {
+    border-bottom: 2px solid #22226B;
+    outline: none;
+    color: #22226B;
+}
+
+button {
+    background-color: #22226B;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: 50px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.2)
+}
+
+button:active {
+    outline: none;
+    transform: scale(1.1)
+}
+
+button:focus {
+    outline: none;
+}
+
+#one {
+    font-size: 1.8rem;
+}
+
+#two {
+    font-size: 1.8rem;
+}
+
+.signage {
+    text-align: center;
+}
+
+a:link{
+    color: inherit;
+}
+
+a:visited{
+    color: inherit;
+}
+
+@media (max-width: 600px) {
+    html {
+        background-size: 150%;
+    }
+
+    .main {
+        margin: auto;
+    }
+
+    button {
+        margin: 20px 2px;
+    }
+}
