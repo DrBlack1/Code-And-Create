@@ -1,0 +1,10 @@
+ .top-content{
+    grid-area: con-top;
+    justify-content: left; 
+    align-items: center; 
+    background-color: red; 
+ } 
+
+
+
+

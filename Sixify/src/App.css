@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo");
+
+html,
+body {
+  margin: 0;
+  color: #e37222;
+  font-family: "Baloo", cursive;
+  font-size: 20px;
+}
+
+.grid-container {
+  height: 100vh;
+  width: 100%;
+  background-color: #e37222;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr auto;
+  grid-template-areas:
+    "navbar content"
+    "player player";
+
+  gap: 5px;
+}
+
+.navbar {
+  grid-area: navbar;
+  height: 100%;
+  width: auto;
+  background-color: #373737;
+
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.content {
+  grid-area: content;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+
+  display: grid;
+  grid-template-rows: 40% 60%;
+  grid-template-areas:
+    "con-top"
+    "con-bottom";
+}
+
+.player {
+  grid-area: player;
+  height: auto;
+  width: 100%;
+  background-color: #373737;
+
+  display: grid;
+  grid-template-columns: 200px auto 200px;
+  grid-template-areas: "left middle right";
+}
+
+.btn {
+  background-color: transparent;
+  border-radius: 2em;
+  border: 0.2em solid orange;
+  color: orange;
+  cursor: pointer;
+  font-size: 3vmin;
+  padding: 0.7em 1.5em;
+  text-transform: uppercase;
+  transition: all 0.25s ease;
+}
+
+.btn:hover {
+  background: grey;
+  color: #333;
+}
+
+.btn--login {
+  margin: 0 auto;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,57 @@
+
+
+.player-left {
+  grid-area: left;
+  justify-content: center; 
+  align-items: center; 
+} 
+
+.player-middle {
+  grid-area: middle;
+  display: grid;
+  grid-template-areas: 
+    "top"
+    "bottom";
+  grid-template-rows: 2fr 1fr;
+}  
+
+.controls-top {
+  display: flex;  
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center;
+}
+ 
+.controls-bottom {
+  display: flex;  
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.player-Right {
+  grid-area: right;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+} 
+
+.control-button { 
+  color:#E37222; 
+  background-color: black; 
+  border: 2px solid #E37222; 
+
+  font-family: 'Baloo', cursive; 
+  font-size:15px; 
+  margin: 10px;
+  height: 50px;
+  width: 80px;
+} 
+
+.timer {
+  width: 60%;
+  background-color: #E37222; 
+  height: 10px;
+  border-radius: 10px;
+
+}
