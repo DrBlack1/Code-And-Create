@@ -1,0 +1,25 @@
+* use express to build web server 
+* web server can refer to hardware, software or both 
+
+* 
+* udp - shoots data, if you want to send data 
+
+* express -> middle man between server and website
+with express.js we can create routes 
+
+routes determine how our app responds to client requests 
+
+http get request - retrieve data from webserver
+get request 
+
+
+============================
+connnecting front end to the back end
+query string -> eg in google url -> q=
+query string is just an additional piece of info we tag on the end of our url
+
+req.query is js object and can be accessed with dot notation
+
+==============================
+the fetch API 
+fetch('http://localhost:3000/about')
