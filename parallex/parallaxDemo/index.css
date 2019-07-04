@@ -1,0 +1,120 @@
+body{
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+#layer1{
+ height: 100%;
+ width: 300%;
+ position: absolute;
+ background-image: url('./images/1Layer1.png');
+ background-size: 100%, 100%;
+ top:15%;
+animation: left 30s cubic-bezier(1.0, 1.0, 1.0, 1.0) infinite;
+}
+#layer2{
+    height: 100%;
+ width: 300%;
+ position: absolute;
+ background-image: url('./images/2Layer2.png');
+ background-size: 100%, 100%; 
+ z-index: -1;
+ top:15%;
+ animation: left 60s cubic-bezier(1.0, 1.0, 1.0, 1.0) infinite;
+}
+#layer3{
+    height: 100%;
+ width: 300%;
+ position: absolute;
+ background-image: url('./images/3Layer3.png');
+ background-size: 100%, 100%; 
+ z-index: -2; 
+ top:15%;
+ animation: left 90s cubic-bezier(1.0, 1.0, 1.0, 1.0) infinite;
+}
+#layer4{
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    background-image: url('./images/4Layer4.png');
+    background-size: 100%, 100%; 
+    z-index: -3;
+    top:15%;
+    animation: left 120s cubic-bezier(1.0, 1.0, 1.0, 1.0) infinite;
+}
+#layer5{
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    background-image: url('./images/5Mountains.png');
+    background-size: 100%, 100%; 
+    z-index: -4;
+    top:15%;
+    animation: left 150s cubic-bezier(1.0, 1.0, 1.0, 1.0) infinite;
+}
+#layer6{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url('./images/6Sun.png');
+    background-size: 100%, 100%; 
+    z-index: -5;
+    /* top:15%; */
+    /* animation: left 180s cubic-bezier(1.0, 1.0, 1.0, 1.0) infinite; */
+}
+#layer7{
+    
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-image: url('./images/8Stars.png');
+        background-size: 100%, 100%; 
+        z-index: -5;
+        /* animation: left 210s cubic-bezier(1.0, 1.0, 1.0, 1.0) infinite; */
+}
+#layer8{
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    background-image: url('./images/7Clouds.png');
+    background-size: 100%, 100%; 
+    z-index: -5;
+    animation: left 240s cubic-bezier(1.0, 1.0, 1.0, 1.0) infinite;
+}
+#layer9{
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    background-image: url('./images/9Background.png');
+    background-size: 100%, 100%; 
+    z-index: -53;
+    animation: left 270s cubic-bezier(1.0, 1.0, 1.0, 1.0) infinite;
+}
+#camel{
+    height: 20%;
+    width: 20%;
+    background-size: 90%,90%;
+    background-image: url('./images/camel1.gif');
+    top:50%;
+    position: absolute;
+    z-index: -3;
+    animation: right 2s cubic-bezier(1.0, 1.0, 1.0, 1.0) infinite;
+} 
+
+@keyframes left{
+    0%{
+left:0%;
+    }
+    100%{
+left: -200%;
+    }
+}
+
+@keyframes right{
+    0%{
+left:-10%;
+    }
+    100%{
+left: 120%;
+    }
+}
