@@ -18,6 +18,7 @@
     "gulp-jasmine-parallel": "0.0.4",
     "gulp-series": "^1.0.2",
     "lodash": "^4.17.11",
+    "lodash.template": "^4.5.0",
     "static-server": "^2.0.0"
   }
 }
